@@ -1,20 +1,24 @@
-# Python
+# Build output
+mod/dist/
+*.wotmod
+
+# Compiled Python
 *.pyc
+*.pyo
 __pycache__/
 
-# Build output
-build/
-temp/
-
-# WoT logs/cache
-python.log
+# Logs
 *.log
+python.log
 
-# IDE
+# IDE / Editor
 .vscode/
 .idea/
 
 # Windows
 Thumbs.db
 Desktop.ini
-*.wotmod
+
+# Temporary files
+*.tmp
+*.bak

@@ -14,6 +14,18 @@ Initial release.
 World of Tanks 2.3.1.2
 
 ### Installation
-Copy `izidors.server_reticle_toggle_1.0.0.wotmod` to:
+Copy `promiseofapocalypse.server_reticle_toggle_1.0.0.wotmod` to:
 
 `World_of_Tanks_EU/mods/<game-version>/`
+
+
+if you want to use customizable buttons, please create mods/configs/promise/serverAimToggle.json
+
+with this content:
+{
+  "enabled": true,
+  "hotkey": ["KEY_LALT", "KEY_B"],
+  "persist": false
+}
+
+!! Big thanks to OldSkool (Promod modpack developer) for pointing me to some great ideas !! 
