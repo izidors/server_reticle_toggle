@@ -1,0 +1,5 @@
+﻿{
+  "enabled": true,
+  "hotkey": ["KEY_LALT", "KEY_B"],
+  "persist": false
+}

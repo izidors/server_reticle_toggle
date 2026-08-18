@@ -19,13 +19,8 @@ Copy `promiseofapocalypse.server_reticle_toggle_1.0.0.wotmod` to:
 `World_of_Tanks_EU/mods/<game-version>/`
 
 
-if you want to use customizable buttons, please create mods/configs/promise/serverAimToggle.json
+if you want to use mod with customizable buttons use: mod_server_reticle_toggle_with_custom.py and please edit mods/configs/promise/serverAimToggle.json
 
-with this content:
-{
-  "enabled": true,
-  "hotkey": ["KEY_LALT", "KEY_B"],
-  "persist": false
-}
+
 
 !! Big thanks to OldSkool (Promod modpack developer) for pointing me to some great ideas !! 

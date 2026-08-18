@@ -1,5 +1,5 @@
 # Build output
-mod/dist/
+mods/dist/
 *.wotmod
 
 # Compiled Python
