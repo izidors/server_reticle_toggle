@@ -113,14 +113,18 @@ def build():
         ))
     )
 
-    source_files = list(
-        SRC_DIR.rglob("mod_*.py")
-    )
+    # source_files = list(
+    #     SRC_DIR.rglob("mod_*.py")
+    #)
+
+    source_files = [
+    MOD_SOURCE
+    ]
 
     if not source_files:
         raise RuntimeError(
             "No mod_*.py files found under %s"
-            % SRC_DIR
+            % MOD_SOURCE
         )
 
     DIST_DIR.mkdir(
