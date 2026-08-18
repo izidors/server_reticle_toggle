@@ -1,0 +1,19 @@
+# Python
+*.pyc
+__pycache__/
+
+# Build output
+build/
+temp/
+
+# WoT logs/cache
+python.log
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,49 @@
+# WoT Server Reticle Toggle
+
+A small World of Tanks mod that allows the built-in server reticle
+to be enabled or disabled using a hotkey.
+
+## Features
+
+- Toggle the World of Tanks server reticle during battle
+- Default hotkey: F9
+- Uses the game's built-in server reticle functionality
+- No custom aiming or target prediction
+
+## Installation
+
+Copy:
+
+    dist/izidors.server_reticle_toggle_0.1.0.wotmod
+
+to:
+
+    World_of_Tanks_EU/mods/<game-version>/
+
+Example:
+
+    World_of_Tanks_EU/mods/2.3.1.4/
+
+Start World of Tanks.
+
+Press F9 during battle to toggle the server reticle.
+
+## Development
+
+Source code is located in:
+
+    src/res/scripts/client/gui/mods/
+
+## Logs
+
+Mod messages can be found in:
+
+    World_of_Tanks_EU/python.log
+
+Search for:
+
+    ServerReticleToggle
+
+## License
+
+MIT
